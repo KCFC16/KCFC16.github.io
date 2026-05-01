@@ -1,8 +1,14 @@
+# 👋 Hi, I'm Yixin
 
-    <!-- 以下是供用户轻松编辑的注释区域 (仅视觉提示，实际不影响显示)  
-         您可以随时修改:
-         - 姓名「Yixin」, 学校「Fuzhou University」
-         - 三个主要模块内容: 工作描述/ 学习内容/ 空闲爱好 (直接修改 .item-content 中的文字即可)
-         - 社交链接: 将 # 替换为真实的GitHub/Linkedin等个人主页
-         - 邮箱: 把yixin@fzu.edu改为您常用邮箱
+🎓 **Fuzhou University**  
+🔭 **福州大学智能边缘课题组** – 边缘智能、分布式系统  
+📚 **研究兴趣**：时空负载预测 · 流量预测 · 异常检测  
+⚡ **爱好**：旅游 & 爬山  
+📫 **邮箱**：032202116@fzu.edu  
+
+---
+
+### 🔗 欢迎交流
+[![GitHub](https://img.shields.io/badge/GitHub-你的用户名-181717?logo=github)](https://github.com/KCFC16)
+[![个人主页](https://img.shields.io/badge/个人主页-在线卡片-2c7da0)](https://KCFC16.github.io) 
 
