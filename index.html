@@ -26,7 +26,6 @@
             color: #1a2c3e;
         }
 
-        /* 主卡片 - 现代玻璃质感 + 精致阴影 */
         .profile-card {
             max-width: 860px;
             width: 100%;
@@ -43,12 +42,10 @@
             box-shadow: 0 28px 48px -15px rgba(0, 0, 0, 0.2);
         }
 
-        /* 内边距区域 */
         .card-inner {
             padding: 2.5rem 2.2rem;
         }
 
-        /* 头部区域：头像 + 基本信息 */
         .hero {
             display: flex;
             flex-wrap: wrap;
@@ -59,7 +56,6 @@
             border-bottom: 2px solid rgba(100, 116, 139, 0.15);
         }
 
-        /* 自定义头像 (纯样式/首字母) */
         .avatar {
             width: 108px;
             height: 108px;
@@ -69,7 +65,6 @@
             align-items: center;
             justify-content: center;
             box-shadow: 0 12px 22px -8px rgba(28, 78, 100, 0.3);
-            transition: all 0.2s;
         }
 
         .avatar span {
@@ -99,7 +94,6 @@
             display: inline-block;
             padding: 0.25rem 1rem;
             border-radius: 40px;
-            backdrop-filter: blur(2px);
             margin-top: 0.25rem;
         }
 
@@ -120,7 +114,6 @@
             font-weight: 400;
         }
 
-        /* 简介小语 */
         .mini-bio {
             margin: 1.5rem 0 1rem 0;
             font-size: 1rem;
@@ -133,7 +126,6 @@
             font-weight: 450;
         }
 
-        /* 三个要点区域 (优雅陈列) */
         .highlights {
             margin: 2rem 0 2rem 0;
             display: flex;
@@ -171,7 +163,6 @@
             align-items: center;
             justify-content: center;
             border-radius: 30px;
-            transition: 0.2s;
         }
 
         .item-content {
@@ -194,7 +185,6 @@
             color: #2c3f4f;
         }
 
-        /* 社交区域 & 联系 */
         .social-links {
             margin-top: 2.5rem;
             padding-top: 1.5rem;
@@ -256,7 +246,6 @@
             letter-spacing: 0.3px;
         }
 
-        /* 移动端优化 */
         @media (max-width: 650px) {
             .card-inner {
                 padding: 1.8rem;
@@ -288,76 +277,62 @@
                 align-items: center;
             }
         }
-
-        /* 按钮及交互细节 */
-        a, button {
-            cursor: pointer;
-        }
-
-        /* 自定义强调 */
-        .tag {
-            font-weight: 600;
-        }
     </style>
 </head>
 <body>
     <div class="profile-card">
         <div class="card-inner">
-            <!-- 头部： 头像/姓名/学校 -->
             <div class="hero">
                 <div class="avatar">
                     <span>YX</span>
                 </div>
                 <div class="title-section">
-                    <h1>Yixin</h1>
+                    <h1>Yixin Chen</h1>
                     <div class="university">
                         <i class="fas fa-graduation-cap"></i> Fuzhou University
                     </div>
                     <div class="location-badge">
                         <i class="fas fa-map-marker-alt"></i> Fuzhou, China
-                        <i class="fas fa-code-branch" style="margin-left: 10px;"></i> 创新 · 进取
+                        <i class="fas fa-cloud-sun" style="margin-left: 10px;"></i> 探索 · 进取
                     </div>
                 </div>
             </div>
 
-            <!-- 简短介绍行 (体现个性) -->
             <div class="mini-bio">
-                <i class="fas fa-feather-alt" style="margin-right: 8px; color: #2c7da0;"></i> 
-                Building digital solutions with curiosity & passion. 热爱技术与创造，乐于探索前沿领域。
+                <i class="fas fa-microchip" style="margin-right: 8px; color: #2c7da0;"></i> 
+                智能边缘 · 时空数据挖掘 | 热爱科研与工程实践
             </div>
 
-            <!-- 三大核心条目：完全对应原始需求 (🔭 📚 ⚡) 并预留自定义空间 -->
             <div class="highlights">
-                <!-- 1. 工作状态 -->
+                <!-- 1. 工作状态 - 福州大学智能边缘课题组 -->
                 <div class="info-item">
                     <div class="item-emoji">🔭</div>
                     <div class="item-content">
                         <span class="highlight-detail">I’m working as </span>
-                        <strong>Full-stack Developer & Research Assistant</strong>
-                        <span class="highlight-detail"> @ AI Lab / 初创科技团队 — 专注于智能Web应用与数据分析工具。</span>
+                        <strong>福州大学智能边缘课题组</strong>
+                        <span class="highlight-detail"> 成员 — 参与边缘智能、分布式系统与资源调度研究。</span>
                     </div>
                 </div>
-                <!-- 2. 学习内容 -->
+                <!-- 2. 学习内容 - 时空负载/流量预测/异常检测 -->
                 <div class="info-item">
                     <div class="item-emoji">📚</div>
                     <div class="item-content">
                         <span class="highlight-detail">I'm currently learning </span>
-                        <strong>MLOps · 云原生架构 (K8s/Docker)  &  Rust</strong>
-                        <span class="highlight-detail"> — 构建可扩展、可信赖的智能系统。</span>
+                        <strong>时空负载预测 · 流量预测 · 异常检测</strong>
+                        <span class="highlight-detail"> — 结合时空图神经网络与时序模型，提升系统智能感知能力。</span>
                     </div>
                 </div>
-                <!-- 3. 空闲时光 -->
+                <!-- 3. 空闲时光 - 旅游 & 爬山 -->
                 <div class="info-item">
                     <div class="item-emoji">⚡</div>
                     <div class="item-content">
                         <span class="highlight-detail">In my free time I </span>
-                        <strong>contribute to open source · 打羽毛球 & 摄影</strong>
-                        <span class="highlight-detail"> —— 保持好奇，保持快门，拍下代码之外的瞬间。</span>
+                        <strong>旅游 & 爬山</strong>
+                        <span class="highlight-detail"> —— 探索自然，登高望远，在行走中获取灵感。</span>
                     </div>
                 </div>
             </div>
 
-            <!-- 社交 & 联系信息 (占位，便于用户替换为自己真实的链接) -->
             <div class="social-links">
                 <div class="social-icons">
                     <a href="#" target="_blank" aria-label="GitHub">
@@ -375,23 +350,14 @@
                 </div>
                 <div class="contact-email">
                     <i class="far fa-envelope"></i> 
-                    yixin@fzu.edu · 联系交流
+                    032202116@fzu.edu
                 </div>
             </div>
 
-            <!-- 底部装饰 -->
             <div class="footer-note">
-                <i class="far fa-smile-wink"></i> 可随意编辑文本、替换链接 — 保持真实，展现自我
+                <i class="far fa-smile-wink"></i> 数据驱动 · 知行合一 — 欢迎学术交流与项目合作
             </div>
         </div>
     </div>
-
-    <!-- 以下是供用户轻松编辑的注释区域 (仅视觉提示，实际不影响显示)  
-         您可以随时修改:
-         - 姓名「Yixin」, 学校「Fuzhou University」
-         - 三个主要模块内容: 工作描述/ 学习内容/ 空闲爱好 (直接修改 .item-content 中的文字即可)
-         - 社交链接: 将 # 替换为真实的GitHub/Linkedin等个人主页
-         - 邮箱: 把yixin@fzu.edu改为您常用邮箱
-    -->
 </body>
 </html>
