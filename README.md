@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Yixin
+# 👋 Hi, I'm Yixin Chen
 
 🎓 **Fuzhou University**  
 🔭 **福州大学智能边缘课题组** – 边缘智能、分布式系统  
